@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Pixelify+Sans&family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body{
+    /* background-color: #efefef; */
+    background-color: #f9f1f1;
+    
+}
+
+.wadah1{
+    background-color: #d7b8b8;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between ;
+    
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 5px  ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(77, 45, 45);
+}
+
+.wadah2 h1{
+    text-align: center;
+    font-size: x-large;
+    
+}
+
+.wadah2{
+    z-index: 1;
+    margin-top: 60px;
+    height: auto;
+    padding: 10px;
+}
+
+.w2-1{
+    display: grid;
+    grid-template-columns: 75%;
+    width: 100%;
+}
+
+.w2-1-1{
+    display: grid;
+    background-color: #dabebe;
+    height: auto;
+    width: 75%;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.5);
+    float: left;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.wadah2 h3{
+    font-family: 'Pixelify Sans', cursive;
+    font-size: x-large;
+    padding: 10px;
+}
+
+.wadah2 p{
+    font-size: large;
+    padding: 10px;
+}
+
+.w2-2{
+    display: grid;
+    background-color: #dabebe;
+    height: auto;
+    width: 75%;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.5);
+    float: right;
+    margin: 20px;
+    margin-right: 0px;
+}
+
+.w3-3{
+    display: grid;
+    background-color: #dabebe;
+    height: auto;
+    width: 75%;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.5);
+    float: left;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+@media(max-width: 880px){
+    .wadah2{
+        grid-template-columns: auto;
+    }
+}
+
+.barney{
+    display : flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.wadah2 img{
+    align-items: center;
+    width: 30%;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.7);
+    margin: 0 auto;
+}
